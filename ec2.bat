@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-0193dcf9aa4f5654e --count 1 --instance-type t2.micro --key-name okey2 --security-groups launch-wizard-2 --region us-east-1
